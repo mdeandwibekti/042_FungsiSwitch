@@ -21,5 +21,36 @@ int perkalian(int a, int b) {
 	return a * b;
 }
 float pembagian(float a, float b) {
-	return a + b;
+	return a / b;
 }
+
+int main()
+{
+	int pilihan;
+	do {
+
+		cout << "kalkulator sederhana" << endl;
+		cout << "====================" << endl;
+		cout << "1. penjumlahan" << endl;
+		cout << "2. pengurangan" << endl;
+		cout << "3. perkalian" << endl;
+		cout << "4. pembagian" << endl;
+		cout << "5. keluar" << endl;
+		cout << "=====================" << endl;
+		cout << "masukan menu pilihan : ";
+		cin >> pilihan;
+
+		switch (pilihan) {
+		case 1:
+			input();
+			cout << "hasil penjumlahan = " << penjumlahan(bilA, bilB) << endl;
+			break
+		case 2:
+ 	}
+		
+		
+
+	} while
+
+}
+	
